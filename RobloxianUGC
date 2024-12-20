@@ -15,11 +15,3 @@ Tab:AddButton({
       		loadstring(game:HttpGet(('https://pastefy.app/qWoxgjRe/raw'),true))()
   	e
 })
-
-OrionLib:MakeNotification({
-	Name = "Title!",
-	Content = "SUB TO REALPOGI_LITE AND 😎BACONBOSS😎",
-	Image = "rbxassetid://4483345998",
-	Time = 5
-})
-
