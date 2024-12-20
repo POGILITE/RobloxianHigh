@@ -1,17 +1,17 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local Window = OrionLib:MakeWindow({Name = "SUB TO REALPOGI_LITE", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "SUB TO POGI ", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 local Tab = Window:MakeTab({
-	Name = "UGC BLING",
+	Name = "INSTANT UGC BLING",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 local Section = Tab:AddSection({
-	Name = "Section"
+	Name = "UGC INSTANT"
 })
 Tab:AddButton({
-	Name = "TOGGLE BACON BOSS SCRIPT",
+	Name = "GET SCRIPT",
 	Callback = function()
       		loadstring(game:HttpGet(('https://pastefy.app/qWoxgjRe/raw'),true))()
-  	e
+  	end    
 })
